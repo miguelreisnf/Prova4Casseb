@@ -4,9 +4,6 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Questao1 from "./Terceira/Questao1"
 import Questao2 from "./Terceira/Questao2"
 import Questao3 from "./Terceira/Questao3"
-import Quadrado from "./Terceira/Quadrado"
-import Triangulo from "./Terceira/Triangulo";
-import Retangulo from "./Terceira/Retangulo.";
 
 const Stack = createStackNavigator()
 
@@ -15,9 +12,9 @@ export default function App(){
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Prova 3"
+          name="Prova 4"
           component={Prova}
-          options={{title:"Prova 3 - Casseb"}}
+          options={{title:"Prova 4 - Casseb"}}
         />
         <Stack.Screen
           name="Questao1"
@@ -31,19 +28,6 @@ export default function App(){
           name="Questao3"
           component={Questao3}
         />
-        <Stack.Screen
-          name="Quadrado"
-          component={Quadrado}
-        />
-        <Stack.Screen
-          name="Retangulo"
-          component={Retangulo}
-        />
-        <Stack.Screen
-          name="Triangulo"
-          component={Triangulo}
-        />
-
       </Stack.Navigator>
     </NavigationContainer>
   )

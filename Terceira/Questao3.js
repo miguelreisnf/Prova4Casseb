@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function Questao3() {
+export default function Fatura() {
   return (
     <View style={styles.container}>
-    <Text>3</Text>
+      <Text>FATURA</Text>
       <StatusBar style="auto" />
     </View>
   );
